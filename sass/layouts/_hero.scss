@@ -1,0 +1,74 @@
+.hero {
+  margin-top: 105px;
+}
+
+.hero__img {
+  position: absolute;
+  left: 700px;
+  top: 220px;
+}
+
+.hero__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.14;
+
+  width: 530px;
+  margin-bottom: 20px;
+
+  color: #99efd0;
+}
+
+.hero__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: #8476aa;
+}
+.hero__buttons {
+  display: flex;
+  gap: 20px;
+}
+.hero__button {
+  width: 157px;
+  height: 46px;
+  margin-top: 40px;
+}
+
+.hero__button-filled {
+  color: #ffffff;
+  background: #f2994a;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+}
+
+.hero__button-transparent {
+  color: #f2994a;
+  background-color: transparent;
+  border: 1px solid #f2994a;
+}
+
+.hero__video {
+  margin-top: 60px;
+  display: flex;
+  gap: 20px;
+}
+
+.video__description {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.38;
+  width: 380px;
+
+  color: #8476aa;
+}
+
+.video__description-preview {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 1.57;
+  margin-top: 6px;
+
+  color: #6d6d78;
+}
